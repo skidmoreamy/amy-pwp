@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+		xmlns="http://www.w3.org/1999/html">
 
 	<head>
 		<meta charset="utf-8"/>
@@ -65,74 +66,76 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<title>Amy Skidmore</title>
-
 	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="navbar navbar-default navbar-fixed-top">
+					<div class="container">
+						<div class="navbar-header page-scroll">
+							<button type="button" class="navbar-toggle" data-toggle="collapse"
+									  data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a href="#page-top" class="navbar-brand page-scroll">
+								<div class="name"><span>Amy Skidmore</span>
+								</div>
+							</a>
+						</div>
+						<div class="collapse navbar-collapse navbar-ex1-collapse">
+							<ul class="nav navbar-nav navbar-right">
+								<li>
+									<a class="page-scroll" href="#about">About</a>
+								</li>
+								<li>
+									<a class="page-scroll" href="#Portfolio">Portfolio</a>
+								</li>
+								<li>
+									<a class="page-scroll" href="contact">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- /.navbar-default -->
+			</nav>
+		</header>
 
-	<header>
-		<nav>
-			<div class="navbar navbar-default navbar-fixed-top">
-				<div class="container">
-					<div class="navbar-header page-scroll">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a href="#page-top" class="navbar-brand page-scroll">
-							<div class="name"><span>Amy Skidmore</span>
-							</div>
+		<!--Bootstrap-Jumbotron-->
+		<div class="extra-jumbotron">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<hr>
+						Amy's
+						<hr>
+						<bold>Web Development & Design</bold>
+						</hr></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section id="about" class="about-section">
+			<div class="container-fluid">
+				<div class="row text-center">
+					<div class="col-lg-9 col-xs-6">
+						<h2>About</h2>
+						<p>sldkfjs
+							skdjflsld
+							laskdfjls</p>
+						<a href="#about"/a>
+					</div>
+					<div class="col-lg-3 col-xs-6">
+						<a href="#profile">
+							<img class="img-round img-responsive" src="image/profile.jpg" alt="map displaying data">
 						</a>
 					</div>
 				</div>
-				<div class="collapse navbar-collapse navbar-ex1-collapse">
-					<ul class="nav navbar-nav navbar-right">
-
-						<li>
-							<a class="page-scroll" href="#about">About</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#Portfolio">Portfolio</a>
-						</li>
-							<li>
-							<a class="page-scroll" href="contact">Contact</a>
-						</li>
-					</ul>
-				</div>
-				<!-- /.navbar-collapse -->
 			</div>
-			<!-- /.container -->
-		</nav>
-	</header>
-	<body>
-		<!--Bootstrap-Jumbotron-->
-		<div class="jumbotron extra-jumbotron">
-			<Hr>Amy's<hr><bold>Web Development & Design</bold></hr></p>
-		</div>
-			<div class="container">
-		</div>
-
-			<!--about me -->
-
-		<section>
-			<id="about" class="about-section"></id>
-				<div class="row text-center">
-					<div class="col-lg-3 col-xs-6">
-					<H2>About</H2>
-					<p>sldkfjs
-					skdjflsld
-					laskdfjls</p>
-					<a href="#about"/a>
-				</div>
-			<div class="col-lg-3 col-xs-6">
-				<a href="#profile">
-				<img class="img-round img-responsive" src="image/profile.jpg" alt="map displaying data"></a>
-			</div>
-
-
-				</div>
 		</section>
-
 
 		<!-- Portfolio section -->
 		<section id="portfolio" class="portfolio-section">
@@ -140,28 +143,23 @@
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<h1 class="section-heading">PORTFOLIO</h1>
+						<p>blah</p>
 					</div>
 				</div>
-				<p>
-					blah
-				</p>
 			</div>
-
 		</section>
 
 		<!--Contact-->
 		<section id="contact" class="contact-section">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12" text-center></div>
-					<h1 class="section-title">Contact</h1>
-					<h3 class="text-muted">Feel Free to Contact Me For Further Information</h3>
-					</span>
+					<div class="col-lg-12 text-center">
+						<h1 class="section-title">Contact</h1>
+						<h3 class="text-muted">Feel Free to Contact Me For Further Information</h3>
+					</div>
 				</div>
 			</div>
 		</section>
 
-
 	</body>
-
 </html>
