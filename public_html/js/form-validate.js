@@ -1,9 +1,11 @@
 $(document).ready(function(){
 
+	//use jquery validate lib to look up field validation
 	/* begin validation*/
 	$("#contactForm").validate({
 
 		// setup handling of form errors
+		// may want to debug: false when go live so that end user dosen't see tech terms
 		debug: true,
 		errorClass: "alert alert-danger",
 		errorLabelContainer: "#output-area",
@@ -48,9 +50,9 @@ $(document).ready(function(){
 		},
 
 		submitHandler: function(form) {
-			$("#contactForm").ajaxSubmit({
+			$("#contact-form").ajaxSubmit({
 				type: "POST",
-				url: $("#contactForm").attr("action"),
+				url: $("#contact-form").attr("action"),
 
 				success: function(ajaxOutput) {
 					// clear the output area's formatting
@@ -61,7 +63,7 @@ $(document).ready(function(){
 
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
-						$("#contactForm")[0].reset();
+						$("#contact-form")[0].reset();
 					}
 				}
 			})
