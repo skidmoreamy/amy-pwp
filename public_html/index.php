@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
-		xmlns="http://www.w3.org/1999/html">
+		xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+		xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 
 	<head>
 		<meta charset="utf-8"/>
@@ -45,6 +46,7 @@
 
 		<!-- jQuery Form, Validate, Additional Methods -->
 		<script type="text/javascript"
+
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"
 				  type="text/javascript"></script>
@@ -94,6 +96,9 @@
 									<a class="page-scroll" href="#portfolio">Portfolio</a>
 								</li>
 								<li>
+									<a class="page-scroll" href="#resume">Resume</a>
+								</li>
+								<li>
 									<a class="page-scroll" href="contact">Contact</a>
 								</li>
 							</ul>
@@ -130,7 +135,7 @@
 					</div>
 					<div class="col-lg-3 col-xs-6">
 						<a href="#profile">
-							<img class="img-round img-responsive" src="image/profile.jpg" alt="map displaying data">
+							<img class="img-circle img-responsive" src="image/profile.jpg" alt="map displaying data">
 						</a>
 					</div>
 				</div>
@@ -167,7 +172,7 @@
 					<div class="input-group-addon">
 						<i class="fa fa-envelope" aria-hidden="true"></i>
 					</div>
-					<input type="email" class="form-control" id="contact" name="email" placeholder="Email">
+					<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 				</div>
 			</div>
 			<div class="form-group">
@@ -189,11 +194,13 @@
 				</div>
 			</div>
 
+
 			<!-- reCAPTCHA -->
 			<div class="g-recaptcha" data-sitekey="6LcozSMUAAAAAHO-noFgY51rTyFVdBI4Psp2ldjt"></div>
 			<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 			<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 		</form>
+
 
 		<!--empty area for form error/success output-->
 		<div class="row">
@@ -201,6 +208,7 @@
 				<div id="output-area"></div>
 			</div>
 		</div>
+
 
 	</body>
 </html>
