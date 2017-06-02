@@ -96,10 +96,12 @@
 									<a class="page-scroll" href="#portfolio">Portfolio</a>
 								</li>
 								<li>
-									<a class="page-scroll" href="#resume">Resume</a>
+									<a class="page-scroll" href="#contact">Contact</a>
 								</li>
 								<li>
-									<a class="page-scroll" href="contact">Contact</a>
+									<p class="navbar-btn">
+										<a href="resume.pdf" target="_blank" class="btn btn-default">Resume</a>
+									</p>
 								</li>
 							</ul>
 						</div>
@@ -154,9 +156,14 @@
 			</div>
 		</section>
 
+		<section id="resume" class="resume-section">
+					  <a href="resume.pdf">
+				<a href="resume.pdf" target="new" onclick="window.parent.location.href='newpage.html';">Resume</a>
+
+		</section>
+
 		<!--Contact-->
-		<section id="contact" class="contact-section"
-		<form id="contact-form" action="php/mailer.php" method="post">
+		<form id="contact" action="php/mailer.php" method="post">
 			<div class="form-group">
 				<label for="name">Name <span class="text-danger">*</span></label>
 				<div class="input-group">

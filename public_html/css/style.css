@@ -40,27 +40,30 @@ p {
 	padding-right: 0;
 }
 
-.contact-section {
+.contact {
 	height: 100%;
 	padding-top: 80px;
 	padding-bottom: 500px;
+	padding-50;
+	padding-left: 25%;
 	text-align: center;
 	background: #eee;
 }
 @media(min-width:767px) {
 	.navbar {
-		padding:0;
-		-webkit-transition: background .2s ease-in-out,padding .2s ease-in-out;
-		-moz-transition: background .2s ease-in-out,padding .2s ease-in-out;
-		transition: background .2s ease-in-out,padding .2s ease-in-out;
+		padding: 0;
+		-webkit-transition: background .2s ease-in-out, padding .2s ease-in-out;
+		-moz-transition: background .2s ease-in-out, padding .2s ease-in-out;
+		transition: background .2s ease-in-out, padding .2s ease-in-out;
 	}
 
 	.top-nav-collapse {
 		padding: 0%;
 	}
-.img-circle {
-	border-radius: 50%;
-}
 
+	.img-circle {
+		border-radius: 50%;
+	}
+}
 
 
