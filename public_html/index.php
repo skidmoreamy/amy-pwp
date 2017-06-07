@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
 		xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
-		xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+		xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 
 	<head>
 		<meta charset="utf-8"/>
@@ -28,7 +28,8 @@
 		<!-- Font Awesome -->
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 				rel="stylesheet"/>
-
+		<!--Google Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Fredericka+the+Great|Merriweather|Nunito:800" rel="stylesheet">
 		<!--custom css-->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
@@ -99,9 +100,13 @@
 									<a class="page-scroll" href="#contact">Contact</a>
 								</li>
 								<li>
-									<p class="navbar-btn">
-										<a href="resume.pdf" target="_blank" class="btn btn-default">Resume</a>
-									</p>
+									<a href="php/resume.pdf">Resume</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/amy-skidmore-6a9972139/" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+								</li>
+								<li>
+									<a href="https://github.com/skidmoreamy/" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
 								</li>
 							</ul>
 						</div>
@@ -115,11 +120,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
-						<hr>
-						Amy's
-						<hr>
-						<bold>Web Development & Design</bold>
-						</hr></p>
+						<h1>ASTECH</h1>
+						<h1><bold>Web Development & Design</bold></h1>
 					</div>
 				</div>
 			</div>
@@ -130,13 +132,14 @@
 				<div class="row text-center">
 					<div class="col-lg-9 col-xs-6">
 						<h2>About</h2>
-						<p>sldkfjs
-							skdjflsld
-							laskdfjls</p>
+						<p>Hi, I'm Amy and I freelance as a Junior FullStack Web Developer. I strive to build creative,
+							functional, and responsive web sites from the ground up using, clean dry code.
+							I currently work with: PHP, MySQL, CSS, Bootstrap, WordPress, Python, JavaScript, and Angular.
+							Feel free to contact me with any questions or requests. </p>
 						<a href="#about"/a>
 					</div>
 					<div class="col-lg-3 col-xs-6">
-						<a href="#profile">
+						<a href="#about">
 							<img class="img-circle img-responsive" src="image/profile.jpg" alt="map displaying data">
 						</a>
 					</div>
@@ -150,27 +153,22 @@
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<h1 class="section-heading">PORTFOLIO</h1>
-						<p>blah</p>
+						<p></p>
 					</div>
 				</div>
 			</div>
 		</section>
-
-		<section id="resume" class="resume-section">
-					  <a href="resume.pdf">
-				<a href="resume.pdf" target="new" onclick="window.parent.location.href='newpage.html';">Resume</a>
-
-		</section>
-
 		<!--Contact-->
-		<form id="contact" action="php/mailer.php" method="post">
+
+		<section><form id="contact" action="php/mailer.php" method="post">
+				<h2><center>Contact</center></h2>
 			<div class="form-group">
 				<label for="name">Name <span class="text-danger">*</span></label>
 				<div class="input-group">
 					<div class="input-group-addon">
 						<i class="fa fa-user" aria-hidden="true"></i>
 					</div>
-					<input type="text" class="form-control" id="contact" name="contact" placeholder="Name">
+					<input type="text" class="form-control" id="contact-form" name="contact-form" placeholder="Name">
 				</div>
 			</div>
 			<div class="form-group">
@@ -215,7 +213,13 @@
 				<div id="output-area"></div>
 			</div>
 		</div>
-
-
+		</section>
 	</body>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="text-left">copy right @ Amy Skidmore 2017</div>
+			</div>
+		</div>
+	</footer>
 </html>

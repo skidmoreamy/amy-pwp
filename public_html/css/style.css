@@ -1,12 +1,19 @@
 
 .name-button {
-	font-family: fantasy;
+	font-family: 'Architects Daughter', cursive;
 	font-size: xx-large;
+	color: black;
+	text-shadow: #08e8de 0px 0px 3px, #08e8de 0px 0px 3px, #08e8de 0px 0px 3px,
+	#08e8de 0px 0px 3px, #08e8de 0px 0px 3px, #08e8de 0px 0px 3px;
 }
 
 span {
 	font-weight: bold;
-	color: darkslategrey;
+	font-family: 'Architects Daughter', cursive;
+	font-size: xx-large;
+	color: black;
+	text-shadow: #08e8de 0px 0px 3px, #08e8de 0px 0px 3px, #08e8de 0px 0px 3px,
+	#08e8de 0px 0px 3px, #08e8de 0px 0px 3px, #08e8de 0px 0px 3px;
 }
 
 .btn {
@@ -16,16 +23,62 @@ span {
 
 p {
 	font-size: 20px;
-}
-.extra-jumbotron{
-	font-family: cursive;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	color: black;
+   }
+
+h2 {
+	font-family:'Architects Daughter', cursive;
+	font-weight: bold;
 	font-size: xx-large;
+	color: black;
+	text-shadow: #08e8de 0px 0px 3px, #08e8de 0px 0px 3px, #08e8de 0px 0px 3px,
+	#08e8de 0px 0px 3px, #08e8de 0px 0px 3px, #08e8de 0px 0px 3px;
+}
+ /**h2{
+	font-family: "Architects Daughter", cursive;
+	font-weight: 600;
+	font-size: 2rem;
+	color: black;
+	text-shadow: #08e8de 0px 0px 3px, #08e8de 0px 0px 3px, #08e8de 0px 0px 3px,
+	#08e8de 0px 0px 3px, #08e8de 0px 0px 3px, #08e8de 0px 0px 3px;
+}**/
+.extra-jumbotron{
+	font-family:'Merriweather', serif;
+	font-size: xx-large;
+	font-weight: 900;
 	background-color: deeppink;
 	background: url('../image/intro.jpg') no-repeat center;
 	background-size: cover;
 	color: white;
+	text-shadow: #08e8de 0px 0px 3px, #08e8de 0px 0px 3px, #08e8de 0px 0px 3px,
+	#08e8de 0px 0px 3px, #08e8de 0px 0px 3px, #08e8de 0px 0px 3px;
 	height: 100vh;
 	padding: 80px 0;
+
+}
+
+#about .container-fluid .col-lg-3 {
+	padding-right: 0;
+	background: #e8e8ee;
+	font-size: 28px;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	color: #F4F4FB;
+	background-image: radial-gradient(#fff 10%, transparent 10%);
+radial-gradient(#fff 10 %, transparent 10 %);
+	background-size: 30px 30px;
+	background-position: 0;
+	background-color: #aaaaaa;
+}
+#about-2{
+	background-color: #F4F4FB;
+}
+
+.img-circle {
+	border-radius: 50%;
+	background-color:#F4F4FB ;
 }
 
 .portfolio-section {
@@ -33,21 +86,20 @@ p {
 	padding-top: 80px;
 	padding-bottom: 120px;
 	text-align: center;
-	background: #fff;
+	background: #e8e8ee;
+	font-family: "Architects Daughter", cursive;
+	color: black;
+	text-shadow: #08e8de 0px 0px 3px, #08e8de 0px 0px 3px, #08e8de 0px 0px 3px,
+	#08e8de 0px 0px 3px, #08e8de 0px 0px 3px, #08e8de 0px 0px 3px;
 }
-
-#about .container-fluid .col-lg-3 {
-	padding-right: 0;
-}
-
-.contact {
+#contact {
 	height: 100%;
 	padding-top: 80px;
 	padding-bottom: 500px;
-	padding-50;
+	padding-right: 25%;
 	padding-left: 25%;
-	text-align: center;
-	background: #eee;
+	background: #cfcfd4;
+
 }
 @media(min-width:767px) {
 	.navbar {
@@ -60,10 +112,13 @@ p {
 	.top-nav-collapse {
 		padding: 0%;
 	}
-
-	.img-circle {
-		border-radius: 50%;
-	}
+body {
+	background-color: #aaaaaa;
+	background-image: radial-gradient(#fff 10%, transparent 10%);
+	radial-gradient(#fff 10%, transparent 10%);
+	background-size: 30px 30px;
+	background-position: 0 0, 15px 15px;
 }
 
+}
 
